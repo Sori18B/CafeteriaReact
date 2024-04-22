@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+}
+.contenedor-main {
+	margin-bottom: 20px;
+}
+
+main {
+	color: #000;
+	padding: 15px 120px;
+}
+
+aside {
+	padding: 15px 0;
+	color: #0d47a1;
+}
+
+.widgets{
+    margin-bottom: 20px;
+}
+/* todos los divs que estén dentro de la clase widgets */
+.widgets > div { 
+	color: #000000;
+	padding: 20px;
+}
+
+footer{
+    padding: 20px 0;
+    background: #1e1e1e;
+	color: white;
+}
+/* 
+#Principal{
+	background-color: #ccbdcc;
+	
+} */

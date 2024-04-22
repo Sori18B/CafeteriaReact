@@ -1,0 +1,138 @@
+body {
+	background: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* MAIN */
+/* Portafolio */
+.portafolio {
+	border-top: 5px solid #72411a;
+	background: #fff;
+}
+
+.portafolio .titulo {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+	max-height: 180px;
+	overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+	background: #3da5e2;
+	display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+	opacity: .3;
+}
+
+/* Ventana Modal */
+.modal-dialog {
+	max-width: 1000px;
+}
+
+/* Contacto */
+.contacto {
+	border-top: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+}
+
+.contacto .titulo {
+	color: #462611;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: center;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+	padding: 15px;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contacto .formulario textarea {
+	height: 100px;
+	min-height: 100px;
+	max-height: 200px;
+}
+
+.contacto .formulario .boton {
+	background: #462611;
+	border: none;
+	padding: 7px 20px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+}
+
+.contacto .formulario .boton:hover {
+	background: #1BA0EF;
+}
+
+/* MEDIAQUERIES */
+/* Dispositivo sm */
+@media screen and (max-width: 576px){
+	.redes-sociales .icono {
+		width: 50px;
+		height: 50px;
+	}
+
+	.redes-sociales .icono svg {
+		width: 25px;
+		height: 25px;
+	}
+
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 768px){}
+
+/* Dispositivo lg */
+@media screen and (max-width: 992px){
+	.logo {
+		height: 76px;
+	}
+
+	header .menu {
+		min-height: 76px;
+	}
+
+	header .menu a {
+		width: 100%;
+	}
+
+	.portafolio .galeria .contenedor-imagen:nth-child(1) {order: 1;}
+	.portafolio .galeria .contenedor-imagen:nth-child(2) {order: 3;}
+	.portafolio .galeria .contenedor-imagen:nth-child(3) {order: 6;}
+	.portafolio .galeria .contenedor-imagen:nth-child(4) {order: 2;}
+	.portafolio .galeria .contenedor-imagen:nth-child(5) {order: 5;}
+	.portafolio .galeria .contenedor-imagen:nth-child(6) {order: 4;}
+	.portafolio .galeria .contenedor-imagen:nth-child(7) {order: 7;}
+}
+
+/* Dispositivo xl */
+@media screen and (max-width: 1200px){}
+
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px){}
+
+
+#v1{
+    padding-left: 10px;
+    width:400px;
+    left: 5px; 
+    }
+
+
+b{
+	color: #462611;
+}
